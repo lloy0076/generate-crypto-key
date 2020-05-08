@@ -48,7 +48,7 @@ overwritten.
 
     % rm -f public.key private.key
 
-    % node index.js
+    % node index.js --bits=512
     info: Writing public key to "public.key"... {"timestamp":"2020-05-08T15:38:49.457Z"}
     info: Writing private key to "private.key"... {"timestamp":"2020-05-08T15:38:49.459Z"}
 
