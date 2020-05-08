@@ -1,0 +1,35 @@
+{
+  "name": "generate-crypto-key",
+  "version": "1.0.0",
+  "description": "This package lets you easily generate cryptography keys using your built-in Node cryptography library. WARNING: Please subject your built-in Node cryptography library and environment to a security review, and the generated keys, before using for any production (i.e. non-testing) purpose.",
+  "main": "index.js",
+  "scripts": {
+    "run": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cryptography",
+    "public key",
+    "private key",
+    "security"
+  ],
+  "author": "David Lloyd",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@hapi/boom": "^9.1.0",
+    "@hapi/joi": "^17.1.1",
+    "csv-parse": "^4.8.8",
+    "dotenv": "^8.2.0",
+    "moment": "^2.24.0",
+    "node-getopt": "^0.3.2",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-airbnb": "18.1.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-react-hooks": "2.5.0"
+  }
+}

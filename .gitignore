@@ -1,0 +1,9 @@
+/node_modules/
+.idea/
+test.csv
+
+/.env
+public.key
+private.key
+foo
+bar
