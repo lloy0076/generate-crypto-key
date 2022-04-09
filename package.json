@@ -20,7 +20,7 @@
     "@hapi/joi": "^17.1.1",
     "csv-parse": "^4.8.8",
     "dotenv": "^8.2.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "node-getopt": "^0.3.2",
     "winston": "^3.2.1"
   },
